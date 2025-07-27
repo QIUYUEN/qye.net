@@ -9,3 +9,11 @@ document.addEventListener('click', function playMusic() {
     });
     document.removeEventListener('click', playMusic);
 });
+
+// loading
+setTimeout(function() {
+  const msgDiv = document.getElementById("loading");
+  if (msgDiv) {
+    msgDiv.remove(); 
+  }
+}, 30000); 
