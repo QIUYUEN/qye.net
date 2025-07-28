@@ -16,4 +16,4 @@ setTimeout(function() {
   if (msgDiv) {
     msgDiv.remove(); 
   }
-}, 30000); 
+}, 20000); 
